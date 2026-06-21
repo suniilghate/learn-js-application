@@ -15,4 +15,10 @@ accountName = "derfff"
 accountPassword = "frtttt"
 accountCity = "sererere"
 
+/**
+ * Do not use var keyword to declare variables
+ * Var is having issues with scopes 
+ * block scope and function scope
+ */
+
 console.table([accountName, accountPassword,accountCity, accountState])
